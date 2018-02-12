@@ -7,6 +7,8 @@ EXPOSE 8080
 # Tomcat Version
 ENV TOMCAT_VERSION_MAJOR 8
 ENV TOMCAT_VERSION_FULL  8.5.27
+#默认字符集
+ENV LANG C.UTF-8
 
 # Download and install
 RUN apk add --update curl &&\
